@@ -1,0 +1,33 @@
+body {
+    background-color: #f9dfdf;
+}
+.container {
+    width: 30rem;
+    height: 50vh;
+    position: relative;
+    top: 10vh;
+    margin: auto;
+   
+}
+
+h1 {
+
+    text-align: center;  
+    font-size: 2.5rem;
+    border-bottom: 5px ridge #eeeeee;
+    padding-bottom: 0.5rem;
+}
+
+li {
+    margin-bottom: 0.6rem;
+    font-size: 0.95rem;
+    color: red;
+}
+
+li::marker {
+    color: #aaaaaa;
+    font-size: 1.5rem;
+}
+a {
+    text-decoration: none;
+}
