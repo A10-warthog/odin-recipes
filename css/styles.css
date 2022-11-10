@@ -1,17 +1,20 @@
 body {
-    background-color: #f9dfdf;
+   background: linear-gradient(
+                45deg,
+                #bf99ef,
+                #978ae0
+   ) fixed;  
+   color: #efefff; 
 }
 .container {
     width: 30rem;
     height: 50vh;
     position: relative;
-    top: 10vh;
+    top: 1vh;
     margin: auto;
-   
 }
 
 h1 {
-
     text-align: center;  
     font-size: 2.5rem;
     border-bottom: 5px ridge #eeeeee;
@@ -19,15 +22,31 @@ h1 {
 }
 
 li {
-    margin-bottom: 0.6rem;
-    font-size: 0.95rem;
-    color: red;
+    margin-bottom: 1rem;
+    font-size: 1.15rem;
 }
 
 li::marker {
-    color: #aaaaaa;
+    color: white;
     font-size: 1.5rem;
 }
+
 a {
     text-decoration: none;
+    color: #efeffe;
 }
+
+.nav_border {
+    border-radius: 0.2rem;
+    padding: 1rem;
+    background-color: #ffce954d;
+    box-shadow: 0 0 15px 0px #d3a2f3;
+}
+
+a:hover {
+    font-weight: bold;
+    background-color: #ef8181;
+    box-shadow: 0 0 1px #df6666;
+    color: #fefefe;
+}
+
